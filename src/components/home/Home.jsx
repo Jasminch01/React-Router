@@ -5,8 +5,8 @@ import Footer from "../Footer/footer";
 const Home = () => {
     return (
         <div>
+            <h1>Home</h1>
             <Navbar></Navbar>
-            <h1>This is my home</h1>
             <Outlet></Outlet>
             <Footer></Footer>
         </div>
